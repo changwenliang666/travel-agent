@@ -1,10 +1,13 @@
 .env
 .venv
 node_modules
-__pycache__
-*.pyc
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 .pytest_cache
 test_travel.db
 travel.db
-dist
 .DS_Store
